@@ -24,31 +24,31 @@ make anvil
 ### Build
 
 ```shell
-$ make build
+make build
 ```
 
 ### Format
 
 ```shell
-$ make format
+make format
 ```
 
 ### Test
 
 ```shell
-$ make test
+make test
 ```
 
 or
 
 ```shell
-$ forge test
+forge test
 ```
 
 for testnet
 
 ```shell
-$ forge test --fork-url $SEPOLIA_RPC_URL
+forge test --fork-url $SEPOLIA_RPC_URL
 ```
 
 ### Test Coverage
@@ -60,26 +60,27 @@ forge coverage
 ### Gas Snapshots
 
 ```shell
-$ make snapshot
+make snapshot
 ```
 
 ### Anvil
 
 ```shell
-$ anvil
+anvil
 ```
 
 ### Deploy
 
 ```shell
-$ make deploy
+make deploy
 ```
 
 For deplying testnet/mainnet please make sure
 
 1. Set up the environment variables
-   `SEPOLIA_RPC_URL`, `PRIVATE_KEY` and `ETHERSCAN_API_KEY` to verify your contract on [Etherscan](https://etherscan.io/)
-2. Get test ETH from the [FAUCETS](https://faucets.chain.link/)
+   `SEPOLIA_RPC_URL`, `PRIVATE_KEY` and `ETHERSCAN_API_KEY` to verify your contract on [Etherscan](https://etherscan.io/).
+
+2. Get test ETH from the [Faucets](https://faucets.chain.link/).
 
 ### Help
 
