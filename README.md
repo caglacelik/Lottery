@@ -3,6 +3,7 @@ Smart Contract Lottery with Chainlink VRF
 # Requirements
 
 Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
 Install [foundry](https://getfoundry.sh/)
 
 # Quickstart
@@ -75,7 +76,7 @@ anvil
 make deploy
 ```
 
-For deplying testnet/mainnet please make sure
+To deploy testnet/mainnet PLEASE MAKE SURE;
 
 1. Set up the environment variables
    `SEPOLIA_RPC_URL`, `PRIVATE_KEY` and `ETHERSCAN_API_KEY` to verify your contract on [Etherscan](https://etherscan.io/).
@@ -85,9 +86,9 @@ For deplying testnet/mainnet please make sure
 ### Help
 
 ```shell
-$ forge --help
-$ anvil --help
-$ cast --help
+forge --help
+anvil --help
+cast --help
 ```
 
 # Contributing
